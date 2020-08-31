@@ -1,0 +1,43 @@
+######################################################################################
+#                                  TwitchLink v 1.0.0
+######################################################################################
+#Author: Grizzy
+#Api Version: 1.16 (Spigot)
+#Support: Grizzy#7294 (Discord)
+#GitHub:
+######################################################################################
+#Permissions:
+# - twitchlink.admin #for admins(default fo op's) #not working yet!
+# - twitchlink.save  #for streamers
+
+#Configuration File:
+
+#enable the streamer's functions of this plugin
+enabled: true #not working yet!
+
+#Delay between live alerts on the server (seconds) default: 20 Minutes
+live-alert-delay: 1800 #not working yet!
+
+#Message Displayed when streamer use /twitch to start streaming
+startMessage: "%player% is streaming now at %link% got it!!!"
+
+start-live-title: "&f %player%,&c Boa Live <3"
+start-live-subtitle: "&d%link%"
+end-live-title: "&f %player%,&c Até a proxima <3"
+end-live-subtitle: "&d Esperamos que tenha tido uma boa live"
+
+#Alert Message on live start (single streamer) use %streamer% to get the streamer's name
+#and %link% to get de streamer's twitch link
+
+#Alert Delayed Message(All Streamers) use %streamer% to get all list of active streamers
+alertmessage: "Streaming now: %streamers%, type /link <player> to see the link"
+
+#Wrong Arguments on commands alert:
+wrong-arguments: "Wrong Arguments! please check usage with /twitch usage"
+no-permission: "You don't have permission to use this command"
+player-not-found: "%player% not found" #not working yet!
+#Message displayed when the player save your new link
+on-save-message: "&e%player% &bYou have been saved your twitch link like &6twitch.tv/%username%"
+
+#Message displayed when (Ex: Admin) save a new link for anyone (check permissions session on the top of this file)
+3on-save-message: "&e%player% &bYou have been saved the twitch link &6twitch.tv/%username% for %player2%"
