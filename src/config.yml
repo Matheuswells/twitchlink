@@ -38,6 +38,8 @@ no-permission: "You don't have permission to use this command"
 player-not-found: "%player% not found" #not working yet!
 #Message displayed when the player save your new link
 on-save-message: "&e%player% &bYou have been saved your twitch link like &6twitch.tv/%username%"
+own-del-message: "&e%player% &cYou have been deleted your twitch link!"
+any-del-message: "&e%player% &cYou have been deleted the twitch link fo %player2%!"
 
 #Message displayed when (Ex: Admin) save a new link for anyone (check permissions session on the top of this file)
 3on-save-message: "&e%player% &bYou have been saved the twitch link &6twitch.tv/%username% for %player2%"

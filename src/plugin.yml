@@ -1,8 +1,22 @@
-name: twitchlink
-main: com.grizzyrp.twitchlink.Main
+name: TwitchLink
+main: com.grizzyrp.twitchlink.TwitchLink
 version: 1.0.0
 api-version: 1.16
 author: GrizzyRp
-commands:
-  twitch:
+description: Twitch Link is a Java Plugin for announce live streams in spigot servers.
 
+commands:
+  live:
+    description: Start/Stop Live status on the server
+
+  twitchsave:
+    description: Save link to the own livestream
+
+  twitchsaveto:
+    description: Save link to the anyone livestream
+
+  twitchdel:
+    description: Delete link to the own livestream
+
+  twitchdelto:
+    description: Delete link to the anyone livestream
