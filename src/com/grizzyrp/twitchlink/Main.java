@@ -1,5 +1,6 @@
 package com.grizzyrp.twitchlink;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -21,6 +22,7 @@ public class Main extends JavaPlugin implements CommandExecutor {
     public void onEnable() {
         this.saveDefaultConfig();
         registerCommands();
+        Bukkit.getPluginManager().registerEvents(new Events(), this);
         getServer().getConsoleSender().sendMessage(pre + ChatColor.GREEN+" TwitchLink has been enabled ");
         File filePlayers = new File(getDataFolder(), "players.yml");
         if (!filePlayers.exists()){
