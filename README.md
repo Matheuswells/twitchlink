@@ -20,6 +20,9 @@ twitchlink.admin
 twitchlink.live
 ```
 ```
+twitchlink.info
+```
+```
 twitchlink.save.own
 ```
 ```
@@ -27,29 +30,20 @@ twitchlink.save.any
 ```
 
 
-## Usage
+## Usage and Permissions
 
-```
-/twitch
-```
-```
-/twitch live
-```
-```
-/twitch save <TwitchUsername>
-```
-```
-/twitch save <Player> <TwitchUsername>
-```
-```
-/twitch delete <TwitchUsername>
-```
-```
-/twitch delete <Player> <TwitchUsername>
-```
-```
-/twitch enable <value>
-```
+| Command                                      | Permission         |Default|
+| -------------------------------------------- |:-------------------|:------:|
+| ```twitch```                                 | twitchlink.live    |   op   |
+| ```twitch live```                            | twitchlink.live    |   op   |
+| ```twitch save <TwitchUsername>```           | twitchlink.save.own|   op   |
+| ```twitch save <Player> <TwitchUsername>```  | twitchlink.save.any|   op   |
+| ```twitch delete <TwitchUsername>```         | twitchlink.del.own |   op   |
+| ```twitch delete <Player> <TwitchUsername>```| twitchlink.del.any |   op   |
+| ```twitch <player> info```                   | twitchlink.info    |   op   |
+| ```twitch enable <value>```                  | twitchlink.admin   |   op   |
+
+
 
 
 
