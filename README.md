@@ -6,41 +6,22 @@ Twitch Link is a Java Plugin for announce live streams in spigot servers.
 
 Copy the JAR package to the "/plugins" directory of your server  to install. Use a version referring to a version of your server.
 
-## Last Releases
+## Last Release
 [twitchlink-v1.0.0-beta-1.16.1.jar](https://github.com/Matheuswells/twitchlink/raw/master/out/artifacts/1.16.1/twitchlink_v1_0_0_beta_1_16_1/twitchlink-v1.0.0-beta-1.16.1.jar) - 08.31.2020
 
 [twitchlink-v1.0.0-beta-1.16.2.jar](https://github.com/Matheuswells/twitchlink/raw/master/out/artifacts/1.16.2/twitchlink_v1_0_0_beta_1_16_2/twitchlink-v1.0.0-beta-1.16.2.jar) - 08.31.2020
 
-## Permissions
-
-```
-twitchlink.admin
-```
-```
-twitchlink.live
-```
-```
-twitchlink.info
-```
-```
-twitchlink.save.own
-```
-```
-twitchlink.save.any
-```
-
 
 ## Usage and Permissions
 
-| Command                                      | Permission         |Default|
+| Command                                      | Permission         |Default |
 | -------------------------------------------- |:-------------------|:------:|
-| ```twitch```                                 | twitchlink.live    |   op   |
-| ```twitch live```                            | twitchlink.live    |   op   |
-| ```twitch save <TwitchUsername>```           | twitchlink.save.own|   op   |
-| ```twitch save <Player> <TwitchUsername>```  | twitchlink.save.any|   op   |
-| ```twitch delete <TwitchUsername>```         | twitchlink.del.own |   op   |
-| ```twitch delete <Player> <TwitchUsername>```| twitchlink.del.any |   op   |
-| ```twitch <player> info```                   | twitchlink.info    |   op   |
+| ```live```                                   | twitchlink.live    |   op   |
+| ```twitchsave <TwitchUsername>```            | twitchlink.save.own|   op   |
+| ```twitchsaveto <TwitchUsername>```          | twitchlink.save.any|   op   |
+| ```twitchdel <TwitchUsername>```             | twitchlink.del.own |   op   |
+| ```twitchdelto <Player>```                   | twitchlink.del.any |   op   |
+| ```twitchinfo <player>```                    | twitchlink.info    |   op   |
 | ```twitch enable <value>```                  | twitchlink.admin   |   op   |
 
 
