@@ -1,8 +1,8 @@
-name: des
-main: com.matheuswells.des.Main
+name: twitchlink
+main: com.grizzyrp.twitchlink.Main
 version: 1.0.0
 api-version: 1.16
-author: Matheus Wells
+author: GrizzyRp
 commands:
   twitch:
 
