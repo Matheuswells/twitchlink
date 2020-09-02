@@ -7,8 +7,16 @@
 #GitHub:
 ######################################################################################
 #Permissions:
-# - twitchlink.admin #for admins(default fo op's) #not working yet!
-# - twitchlink.save  #for streamers
+
+#| Command                                      | Permission         |Default |
+#| -------------------------------------------- |:-------------------|:------:|
+#| ```live```                                   | twitchlink.live    |   op   |
+#| ```twitchsave <TwitchUsername>```            | twitchlink.save.own|   op   |
+#| ```twitchsaveto <TwitchUsername>```          | twitchlink.save.any|   op   |
+#| ```twitchdel <TwitchUsername>```             | twitchlink.del.own |   op   |
+#| ```twitchdelto <Player>```                   | twitchlink.del.any |   op   |
+#| ```twitchinfo <player>```                    | twitchlink.info    |   op   |
+#| ```twitch enable <value>```                  | twitchlink.admin   |   op   |
 
 #Configuration File:
 
