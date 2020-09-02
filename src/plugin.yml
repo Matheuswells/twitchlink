@@ -1,6 +1,6 @@
 name: TwitchLink
 main: com.grizzyrp.twitchlink.TwitchLink
-version: 1.0.0
+version: 1.0.1
 api-version: 1.16
 author: GrizzyRp
 description: Twitch Link is a Java Plugin for announce live streams in spigot servers.
