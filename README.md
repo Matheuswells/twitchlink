@@ -14,7 +14,7 @@ Copy the JAR package to the "/plugins" directory of your server  to install. Use
 
 ## Usage and Permissions
 
-| Command                                      | Permission         |Default |
+| Commands                                     | Permissions        |Default |
 | -------------------------------------------- |:-------------------|:------:|
 | ```live```                                   | twitchlink.live    |   op   |
 | ```twitchsave <TwitchUsername>```            | twitchlink.save.own|   op   |
